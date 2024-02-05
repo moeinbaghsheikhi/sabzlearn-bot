@@ -1,0 +1,1129 @@
+============[Date]============
+[ 2024-02-03 09:25:21  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730618
+ref.message.message_id= 62
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706948719
+ref.message.text= /key
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 4
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u0634\u0631\u0648\u0639","request_contact":"\/start","request_location":false},{"text":"Button 2","request_contact":false,"request_location":false}],[{"text":"Button 3","request_contact":false,"request_location":false},{"text":"Button 4","request_contact":false,"request_location":false},{"text":"Button 5","request_contact":false,"request_location":false}],[{"text":"Button 6","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(46): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:25:30  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730619
+ref.message.message_id= 63
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706948728
+ref.message.text= /key
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 4
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u0634\u0631\u0648\u0639","request_contact":"\/start","request_location":false},{"text":"Button 2","request_contact":false,"request_location":false}],[{"text":"Button 3","request_contact":false,"request_location":false},{"text":"Button 4","request_contact":false,"request_location":false},{"text":"Button 5","request_contact":false,"request_location":false}],[{"text":"Button 6","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(46): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:54:21  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730656
+ref.message.message_id= 139
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950459
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639\ud83d\ude0e"}],[{"text":"\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0631\u0628\u0627\u062a\ud83e\udd16"},{"text":"\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0634\u062e\u0635\u06cc\ud83e\uddd1\u200d\ud83e\uddb2"}]]}
+ref.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(28): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:55:07  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730658
+ref.message.message_id= 143
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950505
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19"},{"text":"Button 2","url":"http:\/\/link2.com"}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:55:17  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730659
+ref.message.message_id= 145
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950516
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19"},{"text":"Button 2","url":"http:\/\/link2.com"}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:57:40  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL '/start' is invalid: URL host is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730662
+ref.message.message_id= 153
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950658
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","url":"\/start"},{"text":"Button 2","url":"http:\/\/link2.com"}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:57:56  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730663
+ref.message.message_id= 155
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950674
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19"},{"text":"Button 2","url":"http:\/\/link2.com"}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 09:58:14  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL '/start' is invalid: URL host is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730664
+ref.message.message_id= 157
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950692
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","url":"\/start"},{"text":"Button 2","url":"http:\/\/link2.com"}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:00:38  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730665
+ref.message.message_id= 159
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950836
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","request_contact":false,"request_location":false}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:01:04  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730666
+ref.message.message_id= 161
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950862
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","request_contact":false,"request_location":false}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(63): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:03:07  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL '/info' is invalid: URL host is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730668
+ref.message.message_id= 166
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706950984
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"Button 1","url":"\/info"},{"text":"Button 2","url":"http:\/\/link2.com"}],[{"text":"Button 3","url":"http:\/\/link3.com"},{"text":"Button 4","url":"http:\/\/link4.com"},{"text":"Button 5","url":"http:\/\/link5.com"}],[{"text":"Button 6","url":"http:\/\/link6.com"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(67): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:03:31  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL '/info' is invalid: URL host is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730669
+ref.message.message_id= 168
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706951009
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"Button 1","url":"\/info"}]]}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(63): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:07:12  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL '/info' is invalid: URL host is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730674
+ref.message.message_id= 176
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706951230
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"Button 1","url":"\/info"}]]}
+ref.text= "{\"inline_keyboard\":[[{\"text\":\"Button 1\",\"url\":\"\\\/info\"}]]}"
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(63): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:07:42  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL '/info' is invalid: URL host is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730676
+ref.message.message_id= 179
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706951261
+ref.message.text= /test
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"Button 1","url":"\/info"}]]}
+ref.text= {"inline_keyboard":[[{"text":"Button 1","url":"\/info"}]]}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(63): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:14:38  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730683
+ref.message.message_id= 195
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706951676
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639\ud83d\ude0e"}],[{"text":"\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0631\u0628\u0627\u062a\ud83e\udd16"},{"text":"\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0634\u062e\u0635\u06cc\ud83e\uddd1\u200d\ud83e\uddb2"}]]}
+ref.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(28): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 10:15:35  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730684
+ref.message.message_id= 196
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1706951734
+ref.message.text= شروع😎
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639\ud83d\ude0e"}],[{"text":"\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0631\u0628\u0627\u062a\ud83e\udd16"},{"text":"\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0634\u062e\u0635\u06cc\ud83e\uddd1\u200d\ud83e\uddb2"}]]}
+ref.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(28): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:09:12  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730719
+ref.callback_query.id= 6787463460495972741
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 237
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706954948
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","callback_data":"\/start"}]]}
+ref.text= سبزلرن
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(723): Telegram->endpoint('editMessageRepl...', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(42): Telegram->editMessageReplyMarkup(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:10:58  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730724
+ref.callback_query.id= 6787463462558992867
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 239
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706955030
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.message_id= 
+ref.reply_markup= {"inline_keyboard":[]}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(723): Telegram->endpoint('editMessageRepl...', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(40): Telegram->editMessageReplyMarkup(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:36:18  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730726
+ref.callback_query.id= 6787463461391556052
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 242
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956575
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.chat_id= 
+ref.message_id= 
+ref.reply_markup= {"inline_keyboard":[]}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(723): Telegram->endpoint('editMessageRepl...', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(39): Telegram->editMessageReplyMarkup(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:36:36  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730727
+ref.callback_query.id= 6787463460724460781
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 242
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956575
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.chat_id= 
+ref.message_id= 
+ref.reply_markup= {"inline_keyboard":[]}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(723): Telegram->endpoint('editMessageRepl...', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(39): Telegram->editMessageReplyMarkup(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:38:19  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730728
+ref.callback_query.id= 6787463462361082483
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 242
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956575
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.chat_id= 
+ref.message_id= 
+ref.text= new edit
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(39): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:38:48  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730729
+ref.callback_query.id= 6787463460150859726
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 242
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956575
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","callback_data":"\/start"}]]}
+ref.text= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(51): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:38:53  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730731
+ref.callback_query.id= 6787463462589498260
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 244
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956730
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","callback_data":"\/start"}]]}
+ref.text= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(51): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:39:47  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730737
+ref.callback_query.id= 6787463459683820424
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 251
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956783
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","callback_data":"\/start"}]]}
+ref.text= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(51): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:41:01  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730738
+ref.callback_query.id= 6787463460616999143
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 251
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706956783
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.chat_id= 
+ref.message_id= 251
+ref.text= new edit
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(39): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-03 11:47:54  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 170730752
+ref.callback_query.id= 6787463461213466472
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 266
+ref.callback_query.message.from.id= 6325872501
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= سبزلرن
+ref.callback_query.message.from.username= sabzlearnphpcoursebot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1706957220
+ref.callback_query.message.text= سلام خوبی؟ به ربات سبزلرن خوش اومدی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /start
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= اطلاعات ربات🤖
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /info
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= اطلاعات شخصی🧑‍🦲
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /me
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= سایت سبزلرن💚
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.url= https://sabzlearn.ir/
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= دوره ربات تلگرام🔵
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.url= https://sabzlearn.ir/course/telegram-bot-php/
+ref.callback_query.chat_instance= -8831749335745202197
+ref.callback_query.data= /info
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a\ud83d\udd19","callback_data":"\/start"}]]}
+ref.text= سبزلرن
+
+
+============[Trace]===========
+#0 D:\php\htdocs\telegram-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\telegram-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\telegram-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\telegram-bot\index.php(41): Telegram->editMessageText(Array)
+#4 {main}
+
